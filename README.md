@@ -7,7 +7,7 @@ I created a simple app to generate colliding array and upload (HTTP POST) it to 
 
 # Generating Colliding array data.
 
-The provided data.txt is 2 ^ 17. if you use it then skip to *Running*
+The provided data.txt is 2 ^ 17. if you use it then skip to **Running**
 
 Compile 
 
@@ -31,4 +31,4 @@ run it
 
 Here data.txt is the generated data, then the link. And 5 is the concurrent number of threads.
 
-NB: Use it at your own risk only to load test your *own* server, Any unauthorized or evil use is not the authors intention and hence, unethical.
+NB: Use it at your own risk only to load test your **own** server, Any unauthorized or evil use is not the authors intention and hence, unethical.
