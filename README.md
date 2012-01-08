@@ -7,7 +7,7 @@ I created a simple app to generate colliding array and upload (HTTP POST) it to 
 
 # Generating Colliding array data.
 
-The provided data.txt is 2 ^ 16. if you use it then skip to *Running*
+The provided data.txt is 2 ^ 17. if you use it then skip to *Running*
 
 Compile 
 
@@ -17,7 +17,7 @@ Generate the data as follows,
 
 	java generatedata 17 > data.txt
 
-Here 16 means it will generate 2 ^ 17 terms.
+Here 17 means it will generate 2 ^ 17 terms.
 
 # Running
 
