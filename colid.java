@@ -32,13 +32,12 @@ public class colid {
        
 //the output from generatedate stored in txt file
         
-String data = fileToString("/Users/sarim/data.txt");
+String data = fileToString(arg[0]);
 
 try {
-    // Construct data
 
     // Send data
-    URL url = new URL("http://www.example.com/");
+    URL url = new URL(arg[1]);
     URLConnection conn = url.openConnection();
     conn.setDoOutput(true);
     OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
@@ -57,17 +56,6 @@ System.out.println("upload end");
 } catch (Exception e) {
 }        
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+             
     }
 }
