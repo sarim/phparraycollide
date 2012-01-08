@@ -15,9 +15,9 @@ Compile
 	
 Generate the data as follows,
 
-	java generatedata 16 > data.txt
+	java generatedata 17 > data.txt
 
-Here 16 means it will generate 2 ^ 16 terms.
+Here 16 means it will generate 2 ^ 17 terms.
 
 # Running
 
