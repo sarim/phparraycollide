@@ -30,3 +30,5 @@ run it
 	java colid data.txt http://localhost/example.php 5
 
 Here data.txt is the generated data, then the link. And 5 is the concurrent number of threads.
+
+NB: Use it at your own risk only to load test your *own* server, Any unauthorized or evil use is not the authors intention and hence, unethical.

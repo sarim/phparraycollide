@@ -33,6 +33,7 @@ class PostThread implements Runnable {
 		    OutputStreamWriter wr = new OutputStreamWriter(conn.getOutputStream());
 		    wr.write(this.data);
 		    wr.flush();
+		    
 		    //upload finished, now banging started on remote server
 		    	System.out.println("upload end from " + this.id + " no thread");
 		    // lets wait from the response
