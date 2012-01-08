@@ -13,6 +13,7 @@ public class generatedata {
             
         System.out.print( key );
         System.out.print("=0&");
+
         }
     }
 }
